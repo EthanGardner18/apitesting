@@ -1,0 +1,13 @@
+{circle_area, /functions/main.py, 17, 19}
+
+*********
+expecting "math.pi" instead of "mathpi" in return statement
+********
+
+^^^^^^^^^^^^^^^^
+Function retrieves circle radius, returns mis-referenced area
+^^^^^^^^^^^^^^^^
+
+$$$$$$$$$$$
+trapezoid_area
+$$$$$$$$$$$

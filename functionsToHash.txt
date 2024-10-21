@@ -1,0 +1,6 @@
+{rectangle_area, /functions/main.py, 3, 6}
+{square_area, /functions/main.py, 8, 10}
+{triangle_area, /functions/main.py, 12, 15}
+{circle_area, /functions/main.py, 17, 19}
+{trapezoid_area, /functions/main.py, 21, 25}
+{main, /functions/main.py, 27, 49}

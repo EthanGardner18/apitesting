@@ -1,0 +1,51 @@
+1: import math
+2: 
+3: def rectangle_area():
+4:     width = float(input("Enter the width of the rectangle: "))
+5:     height = float(input("Enter the height of the rectangle: "))
+6:     return width * height
+7: 
+8: def square_area():
+9:     side = float(input("Enter the side length of the square: "))
+10:     return side * side
+11: 
+12: def triangle_area():
+13:     base = float(input("Enter the base of the triangle: "))
+14:     height = float(input("Enter the height of the triangle: "))
+15:     return 0.5 * base * height
+16: 
+17: def circle_area():
+18:     radius = float(input("Enter the radius of the circle: "))
+19:     return mathpi * radius * radius
+20: 
+21: def trapezoid_area():
+22:     base1 = float(input("Enter the length of the first base of the trapezoid: "))
+23:     base2 = float(input("Enter the length of the second base of the trapezoid: "))
+24:     height = float(input("Enter the height of the trapezoid: "))
+25:     return 0.5 * (base1 + base2) * height
+26: 
+27: def main():
+28:     print("Choose a shape to calculate the area:")
+29:     print("1. Rectangle")
+30:     print("2. Square")
+31:     print("3. Triangle")
+32:     print("4. Circle")
+33:     print("5. Trapezoid")
+34: 
+35:     choice = int(input("Enter the number of the shape (1-5): "))
+36: 
+37:     if choice == 1:
+38:         print(f"The area of the rectangle is: {rectangle_area()}")
+39:     elif choice == 2:
+40:         print(f"The area of the square is: {square_area()}")
+41:     elif choice == 3:
+42:         print(f"The area of the triangle is: {triangle_area()}")
+43:     elif choice == 4:
+44:         print(f"The area of the circle is: {circle_area()}")
+45:     elif choice == 5:
+46:         print(f"The area of the trapezoid is: {trapezoid_area()}")
+47:     else:
+48:         print("Invalid choice. Please enter a number between 1 and 5.")
+49: 
+50: if __name__ == "__main__":
+51:     main()
