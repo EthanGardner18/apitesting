@@ -1,0 +1,4 @@
+{rectangle_area, /functions/main.py, 3, 6}
+    No errors found in this code.
+
+{square_area, /functions/main.py, 8, 10}
