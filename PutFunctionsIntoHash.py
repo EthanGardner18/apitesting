@@ -2,7 +2,6 @@
 import openai
 
 # Set up your OpenAI API key (stored securely)
-openai.api_key = ""
 
 
 # Define the prompt
